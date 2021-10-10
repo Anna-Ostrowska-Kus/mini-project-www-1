@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+.orange{
+    color:rgb(255, 115, 0);
+}
+
+.light{
+    color: rgb(209, 207, 203);
+}
+
+.grey{
+    background-color: rgb(209, 207, 203);
+}
+
+// NAVBAR
+
+.navbar{
+    z-index:1;
+
+}
+
+// MAIN
+
+.card{
+    
+    transition: transform .5s;
+    .card-body{
+        
+        height: 200px;
+    }
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.portfolio{
+    .carousel-item{
+        img{       
+            height: 200px;
+            width:  400px;
+        }
+        
+
+    }
+    
+}
+
+
+
+.price-box{
+    margin: 30px 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+    background-color: white;
+    transition: transform 0.3s;
+    h3{
+        text-transform: uppercase;
+        color: black;
+        }
+        span{
+            font-weight: bold;
+        }
+        
+        button{
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+}
+
+.price-tag{
+    font-size: 30px;
+    font-weight: bold;
+}
+.price-box:hover{
+    transform: scale(1.05);
+}
+    
